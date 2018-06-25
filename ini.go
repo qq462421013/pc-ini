@@ -123,7 +123,7 @@ func LoadFile(filename string) (File, error) {
 }
 
 func HttpFile(Str string)(File){
-	StrArray := strings.Split(Str, "^")
+	StrArray := strings.Split(Str, "丨")
 	var fileone File
 	fileone = make(map[string]Section)
 	for a := 0; a < len(StrArray); a++ {
